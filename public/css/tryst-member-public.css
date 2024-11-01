@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ @media print
+ {    
+     .no-print, .no-print *
+     {
+         display: none !important;
+     }
+ }
+
+ table{
+     border: 1px solid;
+ }
+ th{
+     font-weight: bold;
+     
+ }
+
+ .box-signature{
+    border-top: 1px solid;
+    max-width: 350px;
+    width: 100%;
+    margin: 24px auto 0 auto;
+    padding-top:6px;
+ }
+
+ .badge.t-code{
+    font-size: 26px;
+ }

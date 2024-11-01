@@ -1,0 +1,22 @@
+{
+    "name": "mbsdevel/tryst-member",
+    "description": "Extension to Tryst plugin to process Memberships and Meetings altogether",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Matteus Barbosa",
+            "email": "contato@desenvolvedormatteus.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "admin",
+            "admin/includes/Domain"
+        ], 
+        "psr-4": {
+            "Tryst\\": "includes/Tryst",
+            "Tryst\\Domain\\": "includes/Tryst/Domain"
+        }
+    }
+}

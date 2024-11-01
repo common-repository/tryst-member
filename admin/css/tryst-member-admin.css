@@ -1,0 +1,19 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #your-profile label{
+     display: block;
+ }
+
+ h6.t-section{
+    font-family: sans-serif;
+    color: #872728;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 6px;
+    font-weight: bold !important;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+ }
